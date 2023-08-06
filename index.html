@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Polytechnic University of the Philippines Kiosk</title>
+        <link rel="icon" href="images/PUP_Logo.png" type="image/png">
+        <script src="js/dragscroll.js"></script>
+        <!-- CREDITS TO THE RIGHTFUL OWNER OF DRAGSCROL JS -->
+        <script src="js/script.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="dragscroll">
+        <header>
+            <div class="head">
+                <h1>Polytechnic University of the Philippines | Main Campus - Sta. Mesa</h1>
+            </div>
+        </header>
+
+        <div class="bottom">
+            <p>Interactive Kiosk Map</p>
+        </div>
+
+        <div class="contain-map">
+            <img src="images/pupmaincampus.gif" alt="Map of the PUP Main Campus" usemap="#pupmap" class="damap">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-ampitheater">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-anonas-street">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-apolinario-mabini-shrine">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-canteen">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-charlie-del-rosario-hall">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-c-nutrition-and-food-science-building">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-covered-walkway">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-dome">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-east-wing">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-ferry-station">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-freedom-park">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-gabriela-silang-community-building">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-gazebo">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-generator-facility">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-grandstand">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-guard-house">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-gymnasium">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-interfaith-chapel">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-lagoon">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-laboratory-high-school">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-linear-park">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-main-gate">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-maintenance-building">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-ninoy-aquino-library-and-learning-resources-center">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-north-wing">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-obelisk">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-open-court">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-oval">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-physical-education-building">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-printing-press">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-property-building">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-pylon">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-railroad-track">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-rc-underground-tank">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-sampaguita-canteen">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-south-wing">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-swimming-pool">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-tahanan-ng-alumni">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-tennis-court">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-teresa-street">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-visit-information-center">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-water-pump-facility">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-water-tank">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-west-wing">
+            <img src="images/location.png" alt="location balloon icon" class="balloon" id="b-pasig-river">
+        </div>
+        <main>
+            <img src="images/1.gif" usemap="#image-map" class="main-campus">
+            <map name="image-map">
+                    <area target="_blank" alt="ampitheater" title="ampitheater" href="images/PUP_Amphitheater.jpg" coords="937,731,941,743,890,748,907,797,943,821,980,827,1019,819,1027,808,1002,771,1012,765,987,733" shape="poly" onmouseover="displayInfoBox('images/PUP_Amphitheater.jpg', 'PUP Ampitheater', 'The PUP Ampitheater houses intimate performances and art exhibitions of the universitys most talented students.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="anonas-street" title="anonas-street" href="images/PUP_Anonas_Street.jpg" coords="2186,2,2231,2,2257,595,2197,567" shape="poly" onmouseover="displayInfoBox('images/PUP_Anonas_Street.jpg', 'PUP Anonas Street', 'This street is the easiest way to gain access to the different campuses of PUP.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="apolinario-mabini-shrine" title="apolinario-mabini-shrine" href="images/PUP_Apolinario_Mabini_Shrine.jpg" coords="1492,670,1421,825,1522,879,1634,722,1524,638" shape="poly" onmouseover="displayInfoBox('images/PUP_Apolinario_Mabini_Shrine.jpg', 'PUP Apolinario Mabini Shrine', 'A historic site in the premises of the university. It is noted for being the residence of Filipino military leader Apolinario Mabini who was a part in the Philippine Revolution.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="canteen" title="canteen" href="images/PUP_Canteen.jpg" coords="589,623,554,673,627,720,660,664" shape="poly" onmouseover="displayInfoBox('images/PUP_Canteen.jpg', 'PUP Student Canteen', 'It provides the students of the university with food and drinks to survive the day. They also allow the students to stay and take a break here during their free time.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="charlie-del-rosario-hall" title="charlie-del-rosario-hall" href="images/PUP_Charlie_Building.jpg" coords="462,406,412,492,675,649,726,565" shape="poly" onmouseover="displayInfoBox('images/PUP_Charlie_Building.jpg', 'PUP Charlie del Rosario Hall', 'The first casualty of the Marcos Regime is commemorated by the Charlie Del Rosario Building. He was a desaparacido and activist who fought for the rights of the underprivileged. He was never again seen, but he has already made this place his home.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="c-nutrition-and-food-science-building" title="c-nutrition-and-food-science-building" href="images/PUP_CNFS.png" coords="1062,1399,1062,1455,1434,1455,1436,1395" shape="poly" onmouseover="displayInfoBox('images/PUP_CNFS.png', 'PUP Nutrition and Food Science Building', 'The PUP Nutrition and Food Science Building is a educational building located in the main campus of the Polytechnic University of the Philippines')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="covered-walkway" title="covered-walkway" href="images/PUP_Covered_Walkway.png" coords="2120,612,1926,608,1653,752,1440,1053,1449,1059,1670,761,1941,621,2122,630" shape="poly" onmouseover="displayInfoBox('images/PUP_Covered_Walkway.png', 'PUP Covered Walkway', 'A long path that connects the numerous buildings in the university while granting shade for the students walking in the area.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="dome" title="dome" href="images/PUP_Dome.jpg" coords="941,930,993,930,1068,1057,1040,1096,894,1100,864,1059" shape="poly" onmouseover="displayInfoBox('images/PUP_Dome.jpg', 'PUP Dome', 'Located in the main educational building of the university, it houses the offices of the department within each level of the building. You can find a spiral ramp in this area that is allowed to be accessed by students, staff, civilians, and the faculty.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="east-wing" title="east-wing" href="images/PUP_East_Wing.jpg" coords="892,1102,896,1379,928,1379,924,1403,1017,1403,1019,1377,1045,1377,1042,1102" shape="poly" onmouseover="displayInfoBox('images/PUP_East_Wing.jpg', 'PUP East Wing', 'One of the division of the main infrastructure of the university.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="ferry-station" title="ferry-station" href="images/PUP_Ferry_Station.jpg" coords="679,1354,651,1362,658,1377,638,1386,658,1429,673,1429,677,1440,707,1429" shape="poly" onmouseover="displayInfoBox('images/PUP_Ferry_Station.jpg', 'PUP Ferry Station', 'The PUP Ferry Station is a transpo station in Metro Manila. It serves as an alternative mode of transportation for Metro Manila commuters.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="freedom-park" title="freedom-park" href="images/PUP_Freedom_Park.jpg" coords="1270,791,1249,801,1234,776,1354,660,1382,666,1427,668,1457,664,1472,664,1444,722,1410,793,1389,849,1371,887,1328,913,1313,896,1309,902,1296,885,1318,875" shape="poly" onmouseover="displayInfoBox('images/PUP_Freedom_Park.jpg', 'PUP Freedom Park', 'The opening ceremonies for various celebrations are often held at this place.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="gabriela-silang-community-building" title="gabriela-silang-community-building" href="images/PUP_Gabriela_Silang.jpg" coords="2111,1143,2042,1231,2072,1257,2139,1167" shape="poly" onmouseover="displayInfoBox('images/PUP_Gabriela_Silang.jpg', 'PUP Community Building', 'This building caters the Faculty Offices, Student Center, Student Council Offices, CEA Clinic, and a Multi Purpose Hall.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="gazebo" title="gazebo" href="images/PUP_Gazebo.png" coords="1632,627,1698,630,1698,664,1629,664" shape="poly" onmouseover="displayInfoBox('images/PUP_Gazebo.png', 'PUP Gazebo', 'In an open area, one can find this roofed structure in the university.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="generator-facility" title="generator-facility" href="images/PUP_Generator_Faculty.jpg" coords="608,1311,630,1358,703,1337,679,1294" shape="poly" onmouseover="displayInfoBox('images/PUP_Generator_Faculty.jpg', 'PUP Generator Facility', 'This provides power and backup electricity for whenever needed that supplies the numerous buildings in the university.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="grandstand" title="grandstand" href="images/PUP_Grandstand.jpg" coords="1677,795,1640,853,1627,840,1599,877,1619,887,1576,935,1595,952,1586,963,1604,973,1642,918,1653,926,1690,879,1672,870,1720,819,1700,804" shape="poly" onmouseover="displayInfoBox('images/PUP_Grandstand.jpg', 'PUP Grandstand', 'A bleacher that overlooks the open track and football oval of the school. Orientations and course activities are most of the time held here.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="guard-house" title="guard-house" href="images/PUP_Guard_House.jpg" coords="2102,630,2135,630,2135,655,2100,655" shape="poly" onmouseover="displayInfoBox('images/PUP_Guard_House.jpg', 'PUP Guard House', 'Provides a roof over the heads of our generous and hardworking guards that protects the people of the university.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="gymnasium" title="gymnasium" href="images/PUP_Gymnasium.jpg" coords="1666,64,1655,251,1950,275,1969,92" shape="poly" onmouseover="displayInfoBox('images/PUP_Gymnasium.jpg', 'PUP Gymnasium', 'It accommodates PE Classes and different types of sports activities of students and special gathering or events of faculty, employees and students alike.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="interfaith-chapel" title="interfaith-chapel" href="images/PUP_Interfaith_Chapel.jpg" coords="1275,1068,1176,1107,1133,1203,1174,1298,1270,1341,1369,1300,1408,1201,1367,1109" shape="poly" onmouseover="displayInfoBox('images/PUP_Interfaith_Chapel.jpg', 'PUP Interfaith Chapel', 'The ecumenical chapel (known as the Interfaith Chapel) is a nondenominational Christian church located inside the PUP')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="lagoon" title="lagoon" href="images/PUP_Lagoon.jpg" coords="1055,466,1060,413,1077,376,1116,361,1148,365,1193,423,1195,466,1174,492,1150,518,1126,535,1128,572,1113,604,1092,638,1068,668,1040,698,1012,711,984,724,956,728,924,731,905,735,879,750,875,690,916,683,946,677,941,647,941,597,959,552,995,535,1049,533" shape="poly" onmouseover="displayInfoBox('images/PUP_Lagoon.jpg', 'PUP Lagoon', 'The most hung-out place compared to the rest of the spot in PUP. The PUP Lagoon, for some, was just an ordinary mossy creek with trees around and birds chirping for drama; but this is something special for every PUPian.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="laboratory-high-school" title="laboratory-high-school" href="images/PUP_LHS.png" coords="449,34,642,150,610,211,627,230,597,297,692,357,649,440,728,488,707,526,356,320,382,286,410,241,350,206" shape="poly" onmouseover="displayInfoBox('images/PUP_LHS.png', 'PUP Laboratory High School', 'The Laboratory High School, abbreviated as PUPLHS, is the laboratory school of the Polytechnic University of the Philippines. It is the first high school to offer commercial curriculum in the Philippines.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="linear-park" title="linear-park" href="images/PUP_Linear_Park.jpg" coords="692,1287,606,1311,270,264,286,262,526,1012" shape="poly" onmouseover="displayInfoBox('images/PUP_Linear_Park.jpg', 'PUP Linear Park', 'Located at the banks of the Pasig River, it is one of the favorite places that students chooses to hang out.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="main-gate" title="main-gate" href="images/PUP_Main_Gate.jpg" coords="2148,569,2109,565,2105,608,2141,612" shape="poly" onmouseover="displayInfoBox('images/PUP_Main_Gate.jpg', 'PUP Main Gate', 'This grants access to the students, faculties, staffs, and visitors which allows them to enter and leave the premise. ')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="maintenance-building" title="maintenance-building" href="images/PUP_Maintenance_Building.jpg" coords="812,1412,795,1455,1012,1455,993,1414" shape="poly" onmouseover="displayInfoBox('images/PUP_Maintenance_Building.jpg', 'PUP Maintenance Building', 'It is an educational building within the main campus.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="ninoy-aquino-library-and-learning-resources-center" title="ninoy-aquino-library-and-learning-resources-center" href="images/PUP_NALLRC.jpg" coords="888,19,778,62,845,251,855,273,838,284,853,337,873,331,946,548,1047,507,989,322,1165,260,1131,155,952,213" shape="poly" onmouseover="displayInfoBox('images/PUP_NALLRC.jpg', 'PUP Ninoy Aquino Library and Learning Resources Center', 'The Ninoy Aquino Library and Learning Resource Center (NALLRC) is the main library and academic repository of PUP')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="north-wing" title="north-wing" href="images/PUP_North_Wing.jpg" coords="1234,786,993,922,1070,1051,1311,913,1315,872,1270,797,1249,808" shape="poly" onmouseover="displayInfoBox('images/PUP_North_Wing.jpg', 'PUP North Wing', 'One of the division of the main infrastructure of the university.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="obelisk" title="obelisk" href="images/PUP_Obelisk.png" coords="1404,501,1380,509,1358,544,1369,582,1391,602,1423,604,1453,582,1462,552,1453,529,1434,509" shape="poly" onmouseover="displayInfoBox('images/PUP_Obelisk.png', 'PUP Obelisk', 'The pride of PUP, standing majestic on its base, depicts the strength of the Polytechnic University of the Philippines as an institution of higher learning, promoting educational and moral aims which are fortified by a determined leadership with a clear vision for the Filipino youth and an efficient support system inspired by the virtues of public service.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="open-court" title="open-court" href="images/PUP_Open_Court.jpg" coords="1498,307,1485,449,1707,464,1718,324" shape="poly" onmouseover="displayInfoBox('images/PUP_Open_Court.jpg', 'PUP Open Court', 'They allow here numerous physical education actities such as Intramurals and Sports Competitions as it provides an open area to cater many individuals.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="oval" title="oval" href="images/PUP_Oval.jpg" coords="1703,956,1632,1055,1573,1137,1561,1220,1578,1296,1606,1334,1662,1379,1720,1403,1784,1401,1829,1388,1864,1369,1907,1326,1982,1218,2068,1096,2156,973,2169,881,2141,810,2092,750,2034,722,1961,709,1896,726,1849,756" shape="poly" onmouseover="displayInfoBox('images/PUP_Oval.jpg', 'PUP Track and Football Oval', 'It is a large open area that serves as the athletic track for the students of PUP.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="physical-education-building" title="physical-education-building" href="images/PUP_PEB.jpg" coords="1221,28,1285,28,1275,352,1206,348" shape="poly" onmouseover="displayInfoBox('images/PUP_PEB.jpg', 'PUP Physical Education Building', 'It is an educational building within the main campus.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="printing-press" title="printing-press" href="images/PUP_Printing_Press.jpg" coords="236,99,204,116,253,200,290,176" shape="poly" onmouseover="displayInfoBox('images/PUP_Printing_Press.jpg', 'PUP Printing Press', 'It is one of the student support services facilities.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="property-building" title="property-building" href="images/PUP_Property_Building.jpg" coords="206,2,206,45,243,39,245,64,318,67,313,43,348,45,350,2" shape="poly" onmouseover="displayInfoBox('images/PUP_Property_Building.jpg', 'PUP Property Building', 'It in an office building found in the main campus of the university.')" onmouseout="exitInfoBox()"> 
+                    
+                    <area target="_blank" alt="pylon" title="pylon" href="images/PUP_Pylon.jpg" coords="2191,501,2141,501,2137,561,2195,561" shape="poly" onmouseover="displayInfoBox('images/PUP_Pylon.jpg', 'PUP Pylon', 'The Pylon originally stood for the true, the good and the beautiful. The Triad of pillars may also stand for wisdom, strength and beauty because there should be wisdom to contrive, strength to support and beauty to adorn any great or important undertaking.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="railroad-track" title="railroad-track" href="images/PUP_Railroad_Track.jpg" coords="2311,0,2337,2,2371,1003,2341,1330,2309,1455,2279,1455,2317,1330,2348,984" shape="poly" onmouseover="displayInfoBox('images/PUP_Railroad_Track.jpg', 'PUP Railroad Track', 'It is a railway station located on the South Main Line in the city.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="rc-underground- tank" title="rc-underwater- tank" href="images/PUP_RC_UWT.jpg" coords="696,62,769,67,787,103,698,116,649,71" shape="poly" onmouseover="displayInfoBox('images/PUP_RC_UWT.jpg', 'PUP R.C. Underground Water Tank', 'An underground structure intended for storing water.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="sampaguita-canteen" title="sampaguita-canteen" href="images/PUP_Sampaguita_Canteen.jpg" coords="516,673,477,733,503,750,494,761,520,780,535,767,595,801,630,741" shape="poly" onmouseover="displayInfoBox('images/PUP_Sampaguita_Canteen.jpg', 'PUP University Canteen Sampaguita Building', 'It provides the students of the university with food and drinks to survive the day. They also allow the students to stay and take a break here during their free time.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="south-wing" title="south-wing" href="images/PUP_South_Wing.jpg" coords="705,973,587,1038,765,1347,881,1274,864,1244,875,1240,814,1145,883,1102,857,1059,791,1100" shape="poly" onmouseover="displayInfoBox('images/PUP_South_Wing.jpg', 'PUP South Wing', 'One of the division of the main infrastructure of the university.')" onmouseout="exitInfoBox()"> 
+                    
+                    <area target="_blank" alt="swimming-pool" title="swimming-pool" href="images/PUP_Swimming_Pool.jpg" coords="1358,103,1348,215,1601,232,1608,122" shape="poly" onmouseover="displayInfoBox('images/PUP_Swimming_Pool.jpg', 'PUP Swimming Pool', 'An olympic-sized swimming pool at the Polytechnic University of the Philippines.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="tahanan-ng-alumni" title="tahanan-ng-alumni" href="images/PUP_Tahanan_Ng_Alumni.jpg" coords="1300,95,1290,204,1328,206,1337,101" shape="poly" onmouseover="displayInfoBox('images/PUP_Tahanan_Ng_Alumni.jpg', 'PUP Tahanan ng Alumni', 'A building that provides services concerning alumni activities, requirements, and celebrations.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="tennis-court" title="tennis-court" href="images/PUP_Tennis_Court.jpg" coords="1735,316,1720,507,1933,518,1943,333" shape="poly" onmouseover="displayInfoBox('images/PUP_Tennis_Court.jpg', 'PUP Tennis Court', 'A rectangular open area wherein tennis is played in the grounds of the university just along the covered walkway.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="teresa-street" title="teresa-street" href="images/PUP_Teresa_Street.jpg" coords="2360,541,2360,587,2429,589,2431,541" shape="poly" onmouseover="displayInfoBox('images/PUP_Teresa_Street.jpg', 'PUP Teresa Street', 'Right outside the main gates of PUP Main Campus is Teresa Street, which also serves to connect the campus to Santa Mesa’s main thoroughfare Old Sta. Mesa Street.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="visit-information-center" title="visit-information-center" href="images/PUP_Visit_Information_Center.png" coords="1984,460,1984,533,2128,539,2128,466,2031,466" shape="poly" onmouseover="displayInfoBox('images/PUP_Visit_Information_Center.png', 'PUP Visit Information Center', 'An office that inquires the purpose of a visit and grants access and tickets when entering the premises.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="water-pump-facility" title="water-pump-facility" href="images/PUP_Water_Pump_Facility.jpg" coords="679,6,692,54,769,58,767,9" shape="poly" onmouseover="displayInfoBox('images/PUP_Water_Pump_Facility.jpg', 'PUP Water Pump Facility', 'It is a pumping station that can be found within the campus that works alongside the water tanks.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="water-tank" title="water-tank" href="images/PUP_Water_Tank.jpg" coords="744,138,726,157,726,185,744,204,774,204,795,180,793,161,769,142" shape="poly" onmouseover="displayInfoBox('images/PUP_Water_Tank.jpg', 'PUP R.C. Overhead Water Tank', 'The PUP Ampitheater houses intimate performances and art exhibitions of the universitys most talented students.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="west-wing" title="west-wing" href="images/PUP_West_Wing.png" coords="701,784,683,804,666,793,617,868,636,881,621,911,862,1051,939,924" shape="poly" onmouseover="displayInfoBox('images/PUP_West_Wing.png', 'PUP West Wing', 'One of the division of the main infrastructure of the university.')" onmouseout="exitInfoBox()">
+                    
+                    <area target="_blank" alt="pasig-river" title="pasig-river" href="images/Pasig_River.jpg" coords="0,2,98,4,243,221,651,1455,0,1455" shape="poly" onmouseover="displayInfoBox('images/Pasig_River.jpg', 'PUP Pasig River', 'The Pasig River runs through the heart of Manila and flows from Laguna de Bay to Manila Bay. The river was a major source of water, food and livelihood and offered an alternative mode of transportation. You can see the face of this body of water in the university grounds.')" onmouseout="exitInfoBox()">
+            </map>
+            <span id="display-info"></span>
+        </main>
+    </body>
+</html>

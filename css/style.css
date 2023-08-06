@@ -1,0 +1,337 @@
+body{
+    overflow: hidden;
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+.head{
+    top:0;
+    text-align: center;
+    width: 100%;
+	height: 25px;
+	background-color: rgba(128, 2, 2, 1);
+	z-index: 3;
+    position:fixed;
+    margin: 0;
+    
+}
+.head h1, p{
+    font-size: 12px;
+    margin:0;
+    color:white;
+    padding-top: 5px;
+    letter-spacing: 1px;
+}
+
+.bottom{
+	bottom: 0;
+	height: 18px;
+    position:fixed;
+    width: 100%;
+	height: 20px;
+	background-color: rgba(128, 2, 2, 1);
+	z-index: 3;
+}
+
+.bottom p{
+	margin: 0;
+	font-family: 'Montserrat';
+	color: white;
+	font-size: 12px;
+    padding-bottom: 5px;
+	padding-top: 3px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.contain-map{
+	position: relative;
+}
+
+.balloon{
+	position: absolute;
+	cursor: pointer;
+	z-index: 2;
+    width:1%;
+
+}
+
+.balloon:hover{
+	-webkit-animation: wiggle 0.5s infinite;
+	-moz-animation: wiggle 0.5s infinite;
+	animation: wiggle 0.5s infinite;
+}
+
+#b-ampitheater{
+	top: 756px;
+	left: 955px;
+}
+
+#b-anonas-street{
+	top: 180px;
+	left: 2203px;
+}
+
+#b-apolinario-mabini-shrine{
+	top: 735px;
+	left: 1510px;
+}
+
+#b-canteen{
+	top: 655px;
+	left: 585px;
+}
+
+#b-charlie-del-rosario-hall{
+	top: 510px;
+	left: 560px;
+}
+
+#b-c-nutrition-and-food-science-building{
+	top: 1412px;
+	left: 1230px;
+}
+
+#b-covered-walkway{
+	top: 585px;
+	left: 1980px;
+}
+
+#b-dome{
+	top: 1010px;
+	left: 959px;
+}
+
+#b-east-wing{
+	top: 1209px;
+	left: 959px;
+}
+
+#b-ferry-station{
+	top: 1374px;
+	left: 672px;
+}
+
+#b-freedom-park{
+	top: 712px;
+	left: 1354px;
+}
+
+#b-gabriela-silang-community-building{
+	top: 1174px;
+	left: 2063px;
+}
+
+#b-gazebo{
+	top: 624px;
+	left: 1654px;
+}
+
+#b-generator-facility{
+	top: 1305px;
+	left: 647px;
+}
+
+#b-grandstand{
+	top: 867px;
+	left: 1645px;
+}
+
+#b-guard-house{
+	top: 645px;
+	left: 2048px;
+}
+
+#b-gymnasium{
+	top: 160px;
+	left: 1740px;
+}
+
+#b-interfaith-chapel{
+	top: 1184px;
+	left: 1264px;
+}
+
+#b-lagoon{
+	top: 577px;
+	left: 988px;
+}
+
+#b-laboratory-high-school{
+	top: 220px;
+	left: 486px;
+}
+
+#b-linear-park{
+	top: 813px;
+	left: 445px;
+}
+
+#b-main-gate{
+	top: 585px;
+	left: 2229px;
+}
+
+#b-maintenance-building{
+	top: 1425px;
+	left: 789px;
+}
+
+#b-ninoy-aquino-library-and-learning-resources-center{
+	top: 233px;
+	left: 886px;
+}
+
+#b-north-wing{
+	top: 898px;
+	left: 1141px;
+}
+
+#b-obelisk{
+	top: 542px;
+	left: 1401px;
+}
+
+#b-open-court{
+	top: 370px;
+	left: 1545px;
+}
+
+#b-oval{
+	top: 1057px;
+	left: 1743px;
+}
+
+#b-pasig-river{
+	top: 784px;
+	left: 115px;
+}
+
+#b-physical-education-building{
+	top: 170px;
+	left: 1256px;
+}
+
+#b-printing-press{
+	top: 120px;
+	left: 240px;
+}
+
+#b-property-building{
+	top: 54px;
+	left: 270px;
+}
+
+#b-pylon{
+	top: 536px;
+	left: 2138px;
+}
+
+#b-railroad-track{
+	top: 308px;
+	left: 2323px;
+}
+
+#b-rc-underground-tank{
+	top: 65px;
+	left: 748px;
+}
+
+#b-sampaguita-canteen{
+	top: 715px;
+	left: 525px;
+}
+
+#b-south-wing{
+	top: 1145px;
+	left: 700px;
+}
+
+#b-swimming-pool{
+	top: 168px;
+	left: 1397px;
+}
+
+#b-tahanan-ng-alumni{
+	top: 118px;
+	left: 1308px;
+}
+
+#b-tennis-court{
+	top: 402px;
+	left: 1768px;
+}
+
+#b-teresa-street{
+	top: 533px;
+	left: 2370px;
+}
+
+#b-visit-information-center{
+	top: 520px;
+	left: 2001px;
+}
+
+#b-water-pump-facility{
+	top: 50px;
+	left: 682px;
+}
+
+#b-water-tank{
+	top: 148px;
+	left: 748px;
+}
+
+#b-west-wing{
+	top: 898px;
+	left: 784px;
+}
+
+main{
+	position: relative;
+}
+
+#display-info{
+	position: absolute;
+	z-index: 4;
+
+}
+
+#wrapper{
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+    flex-direction: column;
+    width: 350px;
+	height: fit-content;
+	background-color: beige;
+	border-radius: 10px;
+	text-align: center;
+    font-size: 0.8rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+	border: 2px solid rgba(128, 2, 2, 1);
+}
+
+#imgid{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#heading{
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: rgba(128, 2, 2, 1);
+	font-weight: 800;
+    margin: 0.5rem 0.5rem;
+}
+
+#description{
+	font-family: 'Montserrat';
+	display: flex;
+	color: rgb(21, 21, 21);
+	font-size: 12px;
+	font-weight: 600;
+}
